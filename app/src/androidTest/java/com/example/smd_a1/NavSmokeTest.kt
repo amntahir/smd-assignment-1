@@ -2,11 +2,10 @@ package com.amnatahir.i229885
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.smd_a1.MainActivity   // <-- change if your package differs
-import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import com.google.common.truth.Truth.assertThat
 
 @RunWith(AndroidJUnit4::class)
 class NavSmokeTest {
@@ -15,6 +14,6 @@ class NavSmokeTest {
 
     @Test
     fun app_launches() {
-        assertTrue(true)
+        assertThat(true).isTrue()
     }
 }

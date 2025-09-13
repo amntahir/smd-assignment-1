@@ -5,8 +5,6 @@ import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.smd_a1.MainActivity   // <-- change if your package differs
-import com.example.smd_a1.R             // <-- import your app's R
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
