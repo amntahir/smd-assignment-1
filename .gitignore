@@ -1,0 +1,36 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : # Gradle files
+                    .gradle/
+                    build/
+                    
+                    # Local configuration file (sdk path, etc)
+                    local.properties
+                    
+                    # Log/OS Files
+                    *.log
+                    
+                    # Android Studio generated files and folders
+                    captures/
+                    .externalNativeBuild/
+                    .cxx/
+                    *....
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+                    Strict-Transport-Security: max-age=31536000
+                    X-Content-Type-Options: nosniff
+                    ...
+Forms             : 
+Headers           : {[Connection, keep-alive], [Content-Security-Policy, default-src 'none'; style-src 'unsafe-inline'; sandbox], 
+                    [Strict-Transport-Security, max-age=31536000], [X-Content-Type-Options, nosniff]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : 
+RawContentLength  : 446
+
+
+
